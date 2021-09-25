@@ -8,3 +8,34 @@
 a{
     color: unset;
 }
+header{
+    background-image: url('../images/hero.png');
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+nav .nav-item{
+    color: white;
+    margin: 0 10px;
+}
+nav div.container{
+    display: flex;
+    padding: ;
+}
+nav div.nav-item.app{
+    font-size: 0.9rem;
+    font-weight: 900;
+} 
+nav div.nav-item{
+    font-size: 1.2rem;
+    font-weight: 200;
+} 
