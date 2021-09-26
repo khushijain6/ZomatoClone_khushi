@@ -198,3 +198,35 @@ section.app div.form div.download div img{
     display: inline-block;
     margin-right: 5px 5px;
 }
+
+section.options{
+    min-height: 60vh;;
+}
+section.options div.container{
+    width: 90%;
+    margin: 30px auto;
+}
+section.options div.container h2{
+    font-size: 2rem;
+}
+section.options div.container h3{
+    font-size: 1.3rem;
+}
+section.options div.container div{
+    margin-top: 40px;
+}
+section.options div.container div ul{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+section.options div.container div ul li{
+    /* display: inline-block; */
+    /* list-style:circle; */
+    margin: 3px 10px;
+    color: grey;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
